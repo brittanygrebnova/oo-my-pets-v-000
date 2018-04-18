@@ -91,7 +91,6 @@ class Owner
   end
   
   def list_pets
-    @pets.each do |k, v|
       @pets[:fishes].count = fish_count
       @pets[:dogs].count = dog_count
       @pets[:cats].count = cat_count
